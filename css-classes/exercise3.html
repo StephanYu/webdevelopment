@@ -1,0 +1,88 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 1</title>
+  <style>
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    * {
+      color: white;
+      font-family: Arial;
+      padding: 10px;
+    }
+    header {
+      background-color:  #f2a062; 
+    }
+    .content {
+      background-color: #8eabc0;
+      /*height: 300px;*/
+      padding-left: 20%;
+
+    }
+    /*.widget gadget {
+      width: 20px;
+      height: 20px;
+    }*/
+    .widget {
+      background-color: #d76a50;
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      margin: 10px;
+    }
+    .sub {
+      background-color: #fff;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 0.7em;
+      float: left; 
+      color: #000;
+      position: relative;
+      margin: auto;
+      width: 90%;
+      height: 30%;
+      margin-top: 10px;
+    
+    }
+    .gadget {
+      background-color: #eb6481;
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+      margin: 10px;
+    }
+    .blue {
+      background-color: #507088;
+    }
+    footer {
+      background-color: #b7ce3f;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <header>header</header>
+  <main class='content'>
+    <div class="widget">widget</div>
+    <div class="widget">widget
+      <div class="sub">sub widget</div>
+    </div>
+    <div class="widget blue">widget blue</div>
+    <div class="gadget">gadget</div>
+    <div class="widget blue">widget blue</div><br>
+    <div class="widget">widget</div>
+    <div class="gadget blue">gadget blue</div>
+    <div class="widget">widget</div>
+    <div class="gadget">gadget</div>
+    <div class="widget">widget</div>
+  </main>
+  <footer>footer</footer>
+</body>
+</html>

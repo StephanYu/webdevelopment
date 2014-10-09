@@ -1,0 +1,28 @@
+/* ---------------------------------------------------------- */
+/* Float Examples for MakerSquare Front-End Class ----------- */
+/* created by Elyse Holladay @elyseholladay ----------------- */
+/* ---------------------------------------------------------- */
+
+/* Example 12 */
+
+/* To Do List */
+.todolist {}
+
+/* Individual Todo */
+.todo {}
+
+
+/* Priority icon dot */
+.icon {}
+
+/* Info of the todo, title and date */
+.todo-info {}
+
+/* Title */
+.todo-title {}
+
+/* Date */
+.todo-date {}
+
+/* Checkboxes! */
+input[type=checkbox] {}
